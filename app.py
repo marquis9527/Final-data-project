@@ -5,7 +5,7 @@ from dash.dependencies import Input, Output
 import plotly.express as px
 import pandas as pd
 
-data_url = "https://raw.githubusercontent.com/NiuLearner/dashPython/main/Stocks.csv"
+data_url = "https://github.com/marquis9527/Final-data-project/blob/main/Stocks.csv"
 df_all = pd.read_csv(data_url)
 
 available_tickers = df_all['Ticker'].unique()
